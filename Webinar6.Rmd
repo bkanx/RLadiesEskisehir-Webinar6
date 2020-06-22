@@ -14,7 +14,7 @@ date: 26/06/2020
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: xaringan-themer.css
+    css: style.css
     nature:
       titleSlideClass: ["right","top"]
       highlightStyle: github
@@ -25,40 +25,9 @@ output:
 ---
 
 
-<!-- # --- -->
-<!-- # title: "Tidytext ile Metin Madenciliği " -->
-<!-- # subtitle: "ve Duygu Analizi"   -->
-<!-- # author:  -->
-<!-- #   - "" -->
-<!-- #   - "&#9786; &#x1f615;&#x1f62b;&#x1f914;" -->
-<!-- #   - "	&#x1f611;&#x1f92c;&#x1f624;&#x1f913;" -->
-<!-- #   - "Emre Gümüş" -->
-<!-- #   - "Eskişehir Teknik Üniversitesi" -->
-<!-- # # date: '`r Sys.Date()`' -->
-<!-- # date: 26.06.2020 -->
-<!-- # output: -->
-<!-- #   xaringan::moon_reader: -->
-<!-- #     lib_dir: libs -->
-<!-- #     css: xaringan-themer.css -->
-<!-- #     nature: -->
-<!-- #       highlightStyle: github -->
-<!-- #       highlightLines: true -->
-<!-- #       countIncrementalSlides: false -->
-<!-- # --- -->
-
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
-
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-style_duo_accent(
-  primary_color = "white",
-  secondary_color = "#735d78",
-  inverse_header_color = "#735d78"
-)
-```
-
 
 ```{r, echo=FALSE, out.width="50%"}
 knitr::include_graphics('aim.png')
