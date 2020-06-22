@@ -1,78 +1,87 @@
-<!DOCTYPE html>
-<html lang="" xml:lang="">
-  <head>
-    <title> Webinar 6</title>
-    <meta charset="utf-8" />
-    <meta name="date" content="2020-01-07" />
-    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
-  </head>
-  <body>
-    <textarea id="source">
-class: right, top, title-slide
+---
+title:  |
+  ![](slide1.png){width=11in}  
+  Webinar 6
 
-# <img src="slide1.png" style="width:11in" /><br />
-Webinar 6
-### 01/07/2020
+# author: 
+#   - "R-Ladies İstanbul"
+#   - "R-Ladies Ankara"
+#   - "R-Ladies Eskisehir"
 
+# output: rmarkdown::github_document sadece html için github da.
+# date: '`r Sys.Date()`'
+date: 01/07/2020
+output:
+   revealjs::revealjs_presentation:
+    theme: league
+    highlight: zenburn
+    transition: concave
 ---
 
 
 
 
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(revealjs)
+library(viridis)
+```
 
 
 
-
-
-
-&lt;img src="aim.png" width="50%" /&gt;
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics('aim.png')
+```
 --
 
  - R-Ladies, R topluluğunda cinsiyet çeşitliliğini desteklemek için kurulmuş dünya çapında bir organizasyondur.
 
---
 
  - R kullanan ve geliştiren kadınlarla bir iletişim ortamı sağlamak
  
---
+
 
  - Kadınları R kodları yazmaya, paket geliştirmeye ve R konferanslarına konuşmacı olarak katılmaya teşvik etmek
 
 ---
 
---
-&lt;img src="global.png" width="50%" style="display: block; margin: auto;" /&gt;
---
 
-&lt;img src="slide3.png" width="60%" style="display: block; margin: auto;" /&gt;
+```{r, echo=FALSE,out.width="50%", fig.align='center'}
+knitr::include_graphics('global.png')
+```
+
+
+```{r, echo=FALSE, out.width="60%", fig.align='center'}
+knitr::include_graphics('slide3.png')
+```
 
 
 ---
 
 R-Ladies Global
 
---
-&lt;img src="slide4.png" width="50%" style="display: block; margin: auto;" /&gt;
 
---
-R-Ladies Türkiye &amp;#x21A0;
+```{r, echo=FALSE, out.width="50%", fig.align='center'}
+knitr::include_graphics('slide4.png')
+```
+
+R-Ladies Türkiye &#x21A0;
 
 ---
 
-background-position: 150% 50%
-class: center, bottom, inverse
 
-&lt;img src="slide5.png" width="90%" style="display: block; margin: auto;" /&gt;
+```{r, echo=FALSE,out.width="90%",fig.align='center'}
+knitr::include_graphics('slide5.png')
+```
 
---
+
 
   İstanbul, Eylül 2016
  
---
+
  
   Ankara, Haziran 2019
  
---
 
   Eskişehir, Ekim 2019
   
@@ -80,206 +89,109 @@ class: center, bottom, inverse
 
 
 
-&lt;img src="kurucular.png" width="70%" style="display: block; margin: auto;" /&gt;
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('kurucular.png')
+```
 
 
---
 
-&lt;img src="slide6ek-ladies.png" width="90%" style="display: block; margin: auto;" /&gt;
---
 
-&lt;img src="etkinlik7.png" width="90%" style="display: block; margin: auto;" /&gt;
+```{r, echo=FALSE,out.width="90%",fig.align='center'}
+knitr::include_graphics('slide6ek-ladies.png')
+```
+
+
+```{r, echo=FALSE,out.width="90%",fig.align='center'}
+knitr::include_graphics('etkinlik7.png')
+```
 
 
 ---
 
-&lt;img src="slide7.png" width="70%" style="display: block; margin: auto;" /&gt;
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('slide7.png')
+```
 
-.left-column[
-
-&lt;img src="twitter.png" width="10%" style="display: block; margin: auto auto auto 0;" /&gt;
+```{r, echo=FALSE,out.width="10%",fig.align='left'}
+knitr::include_graphics('twitter.png')
+```
 https:/twitter.com/RLadiesEskisehR
 
 https:/twitter.com/RLadiesIstanbul
 
 https:/twitter.com/RLadiesIstanbul
 
-]
+
 
 ---
 
-&lt;img src="slide7.png" width="70%" style="display: block; margin: auto;" /&gt;
-.left-column[
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('slide7.png')
+```
 
-&lt;img src="meetup.png" width="10%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+```{r, echo=FALSE,out.width="10%",fig.align='left'}
+knitr::include_graphics('meetup.png')
+```
 https://www.meetup.com/rladies-eskisehir
 
 https://https:/meetup.com/rladies-ankara
 
 https://https:/meetup.com/rladies-istanbul
-]
+
 
 ---
 
-&lt;img src="slide7.png" width="70%" style="display: block; margin: auto;" /&gt;
-.left-column[
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('slide7.png')
+```
 
-&lt;img src="insta.png" width="10%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+```{r, echo=FALSE,out.width="10%",fig.align='left'}
+knitr::include_graphics('insta.png')
+```
 https://www.instagram.com/rladies-ankara
-]
+
 
 ---
 
-&lt;img src="youtube.png" width="30%" style="display: block; margin: auto;" /&gt;
+```{r, echo=FALSE,out.width="30%",fig.align='center'}
+knitr::include_graphics('youtube.png')
+```
 
 
 Webinar #1: https://youtu.be/A-zCgrfDavI
 
-&lt;img src="kayit1.png" width="15%" style="display: block; margin: auto auto auto 0;" /&gt;
+```{r, echo=FALSE,out.width="15%",fig.align='left'}
+knitr::include_graphics('kayit1.png')
+```
 
 
 Webinar #2: https://youtube.com/watch?v=uCzPwMknOxQ
 
-&lt;img src="kayit2.png" width="15%" style="display: block; margin: auto auto auto 0;" /&gt;
+```{r, echo=FALSE,out.width="15%",fig.align='left'}
+knitr::include_graphics('kayit2.png')
+```
 
 
-Webinar #4: https://www.youtube.com/watch?v=ykmoy3AO_qI&amp;t=1063s
+Webinar #4: https://www.youtube.com/watch?v=ykmoy3AO_qI&t=1063s
 
-&lt;img src="kayit4.png" width="15%" style="display: block; margin: auto auto auto 0;" /&gt;
+```{r, echo=FALSE,out.width="15%",fig.align='left'}
+knitr::include_graphics('kayit4.png')
+```
 
 
-
----
-
-&lt;img src="thk.png" width="80%" style="display: block; margin: auto;" /&gt;
-
-`* Slaytlar için R paketi [**xaringan**](https://github.com/yihui/xaringan) ile  [**knitr**](http://yihui.name/knitr) ve [R Markdown](https://rmarkdown.rstudio.com) kullanılmıştır.`
 
 ---
 
-&lt;img src="slide8.png" width="70%" style="display: block; margin: auto;" /&gt;
-    </textarea>
-<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"incremental": true,
-"ratio": "16:9"
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function(d) {
-  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})(document);
+```{r, echo=FALSE,out.width="80%",fig.align='center'}
+knitr::include_graphics('thk.png')
+```
 
-(function(d) {
-  var el = d.getElementsByClassName("remark-slides-area");
-  if (!el) return;
-  var slide, slides = slideshow.getSlides(), els = el[0].children;
-  for (var i = 1; i < slides.length; i++) {
-    slide = slides[i];
-    if (slide.properties.continued === "true" || slide.properties.count === "false") {
-      els[i - 1].className += ' has-continuation';
-    }
-  }
-  var s = d.createElement("style");
-  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
-  d.head.appendChild(s);
-})(document);
-// delete the temporary CSS (for displaying all slides initially) when the user
-// starts to view slides
-(function() {
-  var deleted = false;
-  slideshow.on('beforeShowSlide', function(slide) {
-    if (deleted) return;
-    var sheets = document.styleSheets, node;
-    for (var i = 0; i < sheets.length; i++) {
-      node = sheets[i].ownerNode;
-      if (node.dataset["target"] !== "print-only") continue;
-      node.parentNode.removeChild(node);
-    }
-    deleted = true;
-  });
-})();
-(function() {
-  "use strict"
-  // Replace <script> tags in slides area to make them executable
-  var scripts = document.querySelectorAll(
-    '.remark-slides-area .remark-slide-container script'
-  );
-  if (!scripts.length) return;
-  for (var i = 0; i < scripts.length; i++) {
-    var s = document.createElement('script');
-    var code = document.createTextNode(scripts[i].textContent);
-    s.appendChild(code);
-    var scriptAttrs = scripts[i].attributes;
-    for (var j = 0; j < scriptAttrs.length; j++) {
-      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
-    }
-    scripts[i].parentElement.replaceChild(s, scripts[i]);
-  }
-})();
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-// adds .remark-code-has-line-highlighted class to <pre> parent elements
-// of code chunks containing highlighted lines with class .remark-code-line-highlighted
-(function(d) {
-  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
-  const preParents = [];
-  const findPreParent = function(line, p = 0) {
-    if (p > 1) return null; // traverse up no further than grandparent
-    const el = line.parentElement;
-    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
-  };
+Slaytlar için R paketi [**revealjs**](https://bookdown.org/yihui/rmarkdown/revealjs.html) ile  [**knitr**](http://yihui.name/knitr) ve [R Markdown](https://rmarkdown.rstudio.com) kullanılmıştır.
 
-  for (let line of hlines) {
-    let pre = findPreParent(line);
-    if (pre && !preParents.includes(pre)) preParents.push(pre);
-  }
-  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
-})(document);</script>
+---
 
-<script>
-slideshow._releaseMath = function(el) {
-  var i, text, code, codes = el.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-};
-slideshow._releaseMath(document);
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('slide8.png')
+```
