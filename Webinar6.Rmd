@@ -1,0 +1,235 @@
+---
+title:  |
+  ![](slide1.png){width=11in}  
+  Webinar 6
+
+# author: 
+#   - "R-Ladies İstanbul"
+#   - "R-Ladies Ankara"
+#   - "R-Ladies Eskisehir"
+
+# output: rmarkdown::github_document sadece html için github da.
+# date: '`r Sys.Date()`'
+date: 26/06/2020
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      titleSlideClass: ["right","top"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      incremental: true
+      ratio: 16:9
+---
+
+
+<!-- # --- -->
+<!-- # title: "Tidytext ile Metin Madenciliği " -->
+<!-- # subtitle: "ve Duygu Analizi"   -->
+<!-- # author:  -->
+<!-- #   - "" -->
+<!-- #   - "&#9786; &#x1f615;&#x1f62b;&#x1f914;" -->
+<!-- #   - "	&#x1f611;&#x1f92c;&#x1f624;&#x1f913;" -->
+<!-- #   - "Emre Gümüş" -->
+<!-- #   - "Eskişehir Teknik Üniversitesi" -->
+<!-- # # date: '`r Sys.Date()`' -->
+<!-- # date: 26.06.2020 -->
+<!-- # output: -->
+<!-- #   xaringan::moon_reader: -->
+<!-- #     lib_dir: libs -->
+<!-- #     css: xaringan-themer.css -->
+<!-- #     nature: -->
+<!-- #       highlightStyle: github -->
+<!-- #       highlightLines: true -->
+<!-- #       countIncrementalSlides: false -->
+<!-- # --- -->
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "white",
+  secondary_color = "#735d78",
+  inverse_header_color = "#735d78"
+)
+```
+
+
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics('aim.png')
+```
+--
+
+ - R-Ladies, R topluluğunda cinsiyet çeşitliliğini desteklemek için kurulmuş dünya çapında bir organizasyondur.
+
+--
+
+ - R kullanan ve geliştiren kadınlarla bir iletişim ortamı sağlamak
+ 
+--
+
+ - Kadınları R kodları yazmaya, paket geliştirmeye ve R konferanslarına konuşmacı olarak katılmaya teşvik etmek
+
+---
+
+--
+```{r, echo=FALSE,out.width="50%", fig.align='center'}
+knitr::include_graphics('global.png')
+```
+--
+
+```{r, echo=FALSE, out.width="60%", fig.align='center'}
+knitr::include_graphics('slide3.png')
+```
+
+
+---
+
+R-Ladies Global
+
+--
+```{r, echo=FALSE, out.width="50%", fig.align='center'}
+knitr::include_graphics('slide4.png')
+```
+
+--
+R-Ladies Türkiye &#x21A0;
+
+---
+
+background-position: 150% 50%
+class: center, bottom, inverse
+
+```{r, echo=FALSE,out.width="90%",fig.align='center'}
+knitr::include_graphics('slide5.png')
+```
+
+--
+
+  İstanbul, Eylül 2016
+ 
+--
+ 
+  Ankara, Haziran 2019
+ 
+--
+
+  Eskişehir, Ekim 2019
+  
+---
+
+
+
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('kurucular.png')
+```
+
+
+--
+
+```{r, echo=FALSE,out.width="90%",fig.align='center'}
+knitr::include_graphics('slide6ek-ladies.png')
+```
+--
+
+```{r, echo=FALSE,out.width="90%",fig.align='center'}
+knitr::include_graphics('etkinlik7.png')
+```
+
+
+---
+
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('slide7.png')
+```
+
+.left-column[
+
+```{r, echo=FALSE,out.width="10%",fig.align='left'}
+knitr::include_graphics('twitter.png')
+```
+https:/twitter.com/RLadiesEskisehR
+
+https:/twitter.com/RLadiesIstanbul
+
+https:/twitter.com/RLadiesIstanbul
+
+]
+
+---
+
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('slide7.png')
+```
+.left-column[
+
+```{r, echo=FALSE,out.width="10%",fig.align='left'}
+knitr::include_graphics('meetup.png')
+```
+https://www.meetup.com/rladies-eskisehir
+
+https://https:/meetup.com/rladies-ankara
+
+https://https:/meetup.com/rladies-istanbul
+]
+
+---
+
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('slide7.png')
+```
+.left-column[
+
+```{r, echo=FALSE,out.width="10%",fig.align='left'}
+knitr::include_graphics('insta.png')
+```
+https://www.instagram.com/rladies-ankara
+]
+
+---
+
+```{r, echo=FALSE,out.width="30%",fig.align='center'}
+knitr::include_graphics('youtube.png')
+```
+
+
+Webinar #1: https://youtu.be/A-zCgrfDavI
+
+```{r, echo=FALSE,out.width="15%",fig.align='left'}
+knitr::include_graphics('kayit1.png')
+```
+
+
+Webinar #2: https://youtube.com/watch?v=uCzPwMknOxQ
+
+```{r, echo=FALSE,out.width="15%",fig.align='left'}
+knitr::include_graphics('kayit2.png')
+```
+
+
+Webinar #4: https://www.youtube.com/watch?v=ykmoy3AO_qI&t=1063s
+
+```{r, echo=FALSE,out.width="15%",fig.align='left'}
+knitr::include_graphics('kayit4.png')
+```
+
+
+
+---
+
+```{r, echo=FALSE,out.width="80%",fig.align='center'}
+knitr::include_graphics('thk.png')
+```
+
+`* Slaytlar için R paketi [**xaringan**](https://github.com/yihui/xaringan) ile  [**knitr**](http://yihui.name/knitr) ve [R Markdown](https://rmarkdown.rstudio.com) kullanılmıştır.`
+
+---
+
+```{r, echo=FALSE,out.width="70%",fig.align='center'}
+knitr::include_graphics('slide8.png')
+```
