@@ -7,7 +7,7 @@
 
 01.07.2020 Saat:18.00
 
-# SQLite ile veritabanı oluşturma ve tablo sorgulama
+# SQLite ile veritabanına bağlanma ve SQL tablo sorgulama paketleri
 
 ## İlkay Tuğ
 
