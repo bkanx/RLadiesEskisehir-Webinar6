@@ -8,7 +8,7 @@
 
 01.07.2020 Saat:18.00
 
-# SQLite ile veritabanına bağlanma ve SQL tablo sorgulama paketleri
+# SQLite ile veritabanına bağlanma, SQL ve dplyr sorgulama
 
 ## İlkay Tuğ
 
