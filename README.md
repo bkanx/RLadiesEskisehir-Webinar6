@@ -1,4 +1,5 @@
-# R-Ladies Eskisehir Webinar6
+# R-Ladies Eskisehir
+## Webinar6
 
 <img src="https://github.com/bkanx/R-Ladies-EskisehR-Stickers/blob/master/Init.png" width="200"> (Moderator: Betül Kan Kılınç)
 
