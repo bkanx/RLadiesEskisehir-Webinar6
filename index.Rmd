@@ -119,7 +119,7 @@ https:/twitter.com/RLadiesEskisehR
 
 https:/twitter.com/RLadiesIstanbul
 
-https:/twitter.com/RLadiesIstanbul
+https:/twitter.com/RLadiesAnkara
 
 
 
@@ -135,9 +135,9 @@ knitr::include_graphics('meetup.png')
 ```
 https://www.meetup.com/rladies-eskisehir
 
-https://https:/meetup.com/rladies-ankara
+https://meetup.com/rladies-ankara
 
-https://https:/meetup.com/rladies-istanbul
+https://meetup.com/rladies-istanbul
 
 
 ---
